@@ -1,8 +1,8 @@
-const WIDTH = 800;
-const HEIGHT = 600;
+const WIDTH = window.innerWidth;
+const HEIGHT = window.innerHeight;
 const SIDE = 15;
 const DEPTH = 20;
-const STEP = 150;
+const STEP = 250;
 
 let mouseI, mouseJ;
 let currentMouseI, currentMouseJ;
