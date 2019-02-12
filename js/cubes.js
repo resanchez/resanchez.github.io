@@ -83,7 +83,6 @@ function update() {
 				if (intersects[0].object != intersected) {
 					removeHighlight(intersected);
 					intersected = intersects[0].object;
-					console.log('add red as cube selected')
 					intersected.material.color.setHex(0xff0000);
 				}
 			// He has clicked the cube
