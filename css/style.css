@@ -1,4 +1,12 @@
 body {
     margin: 0;
     overflow: hidden;
+    color: white;
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
 }
